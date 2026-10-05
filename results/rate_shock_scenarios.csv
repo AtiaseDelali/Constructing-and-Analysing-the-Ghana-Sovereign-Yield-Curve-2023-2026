@@ -1,0 +1,7 @@
+scenario,portfolio pnl ghs,pnl pct of face
+parallel +100bp,-28488.0,-2.8488
+parallel -100bp,28488.0,2.8488
+"steepener (+50bp 10y, -50bp 1y)",-1362.98,-0.1363
+"flattener (-50bp 10y, +50bp 1y)",1362.98,0.1363
+front-end selloff (+200bp under 2y),-6328.0,-0.6328
+total DV01 (GHS per bp),284.88,
